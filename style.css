@@ -3,7 +3,7 @@ body {
   color: #b9b9b9;
   /* background-image: url(https://source.unsplash.com/1600x900/?Abstract,dark,black); */
   display: flex;
-  font-family: 'D-DIN',monospace;
+  font-family: 'D-DIN','Roboto', monospace;
   justify-content: space-evenly;
   align-items: center;
   height: 97vh;
@@ -48,10 +48,10 @@ body {
 }
 
 #line {
-  background-color: black;
+  background-color: #0e0e0e;
   height: 5px;
   position: relative;
-  top: 339px;
+  top: 327px;
 }
 
 @media (min-width: 300px) and (max-width: 750px) {
