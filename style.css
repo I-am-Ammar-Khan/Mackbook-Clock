@@ -71,7 +71,6 @@ body {
     background: linear-gradient(25deg, #000, #1b1b1b);
     display: block;
     margin: auto;
-    margin-top: 32px;
   }
   #min{
     font-size: 10rem;
@@ -88,8 +87,8 @@ body {
   }
   #ampm{
     font-size: 2rem;
-    left: 35px;
-    top: 8  0px;
+    left: 20px;
+    top: 60px;
   }
   #line{display: none;}
 }
