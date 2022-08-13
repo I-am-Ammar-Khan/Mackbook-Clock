@@ -54,7 +54,7 @@ body {
   top: 327px;
 }
 
-@media (min-width: 300px) and (max-width: 750px) {
+@media (min-width: 100px) and (max-width: 750px) {
   body{
     height: 80vh;
   }
@@ -65,7 +65,7 @@ body {
     margin: 12px;
   }
   #hrs {
-    font-size: 10rem;
+    font-size: 8rem;
     padding: 30px;
     width: 50vw;
     height: 50vw;
@@ -76,7 +76,7 @@ body {
     margin: auto;
   }
   #min{
-    font-size: 10rem;
+    font-size: 8rem;
     padding: 30px;
     width: 50vw;
     height: 50vw;
@@ -92,6 +92,49 @@ body {
     font-size: 2rem;
     left: 20px;
     top: 60px;
+  }
+  #line{display: none;}
+}
+@media (min-width: 750px) and (max-width: 1240px) {
+  body{
+    height: 80vh;
+  }
+  .cover{ 
+    margin-top: 20vh;
+  }
+  .time {
+    margin: 12px;
+    display: flex;
+  }
+  #hrs {
+    font-size: 10rem;
+    padding: 30px;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+    border-radius: 10px;
+    background: linear-gradient(25deg, #000, #1b1b1b);
+    display: inline-block;
+    margin: auto;
+    margin-right: 25px;
+  }
+  #min{
+    font-size: 10rem;
+    padding: 30px;
+    width: 25vw;
+    height: 25vw;
+    text-align: center;
+
+    border-radius: 10px;
+    background: linear-gradient(25deg, #000, #1b1b1b);
+    display: inline-block;
+    margin: auto;
+    /* margin-top: 32px; */
+  }
+  #ampm{
+    font-size: 2rem;
+    left: 60px;
+    top: 30px;
   }
   #line{display: none;}
 }
