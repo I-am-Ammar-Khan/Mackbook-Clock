@@ -17,19 +17,19 @@ body {
 }
 
 #hrs {
-  font-size: 23rem;
+  font-size: 20rem;
   padding: 50px;
   width: 375px;
   text-align: center;
 
   border-radius: 23px;
-  background: linear-gradient(25deg, #000, #1b1b1b);
+  background: linear-gradient(335deg, #000, #1b1b1b);
   display: inline-block;
   margin-right: 22px;
 }
 
 #min {
-  font-size: 23rem;
+  font-size: 20rem;
   padding: 50px;
   width: 375px;
   text-align: center;
@@ -71,7 +71,7 @@ body {
     height: 50vw;
     text-align: center;
     border-radius: 10px;
-    background: linear-gradient(25deg, #000, #1b1b1b);
+    background: linear-gradient(344deg, #000, #1b1b1b);
     display: block;
     margin: auto;
   }
@@ -95,7 +95,7 @@ body {
   }
   #line{display: none;}
 }
-@media (min-width: 750px) and (max-width: 1240px) {
+@media (min-width: 575px) and (max-width: 1240px) {
   body{
     height: 80vh;
   }
@@ -138,3 +138,5 @@ body {
   }
   #line{display: none;}
 }
+
+::-webkit-scrollbar{display: none;}
